@@ -14,9 +14,10 @@
 // limitations under the License.                                           //
 // ======================================================================== //
 
-#include <optix_device.h>
-
+#include "optix7.h"
 #include "LaunchParams.h"
+
+#include <optix_device.h>
 
 using namespace osc;
 
@@ -44,7 +45,6 @@ namespace osc {
   { /*! for this simple example, this will remain empty */ }
 
 
-  
   //------------------------------------------------------------------------------
   // miss program that gets called for any ray that did not have a
   // valid intersection

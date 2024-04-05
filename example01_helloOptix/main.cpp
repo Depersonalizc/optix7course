@@ -27,7 +27,7 @@ namespace osc {
     // -------------------------------------------------------
     // check for available optix7 capable devices
     // -------------------------------------------------------
-    cudaFree(0);
+    cudaFree(nullptr);
     int numDevices;
     cudaGetDeviceCount(&numDevices);
     if (numDevices == 0)

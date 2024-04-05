@@ -14,9 +14,9 @@
 // limitations under the License.                                           //
 // ======================================================================== //
 
-#include <optix_device.h>
-
 #include "LaunchParams.h"
+
+#include <optix_device.h>
 
 using namespace osc;
 

@@ -14,10 +14,11 @@
 // limitations under the License.                                           //
 // ======================================================================== //
 
-#include <optix_device.h>
-#include <cuda_runtime.h>
-
 #include "LaunchParams.h"
+
+#ifdef __INTELLISENSE__
+#include <optix_device.h>
+#endif
 
 using namespace osc;
 
